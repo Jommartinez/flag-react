@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const CountryStyled = styled.div`
 	width: 264px;
@@ -27,7 +27,7 @@ const CountryStyled = styled.div`
 		margin: 0;
 		margin-bottom: 0.5em;
 	}
-`;
+`
 
 function Country({ flag, name, population, region, capital }) {
 	return (
@@ -49,7 +49,7 @@ function Country({ flag, name, population, region, capital }) {
 				</p>
 			</div>
 		</CountryStyled>
-	);
+	)
 }
 
-export default Country;
+export default Country
